@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    font-size: 15px;
+    background-color: aliceblue;
+    width: 100px;
+    text-align: center;
+    margin: 5px auto;
+    border: 1px solid  violet;
+    border-radius: 5px;
+}
+
+input{
+    width: 60px;
+    text-align: right;
+}
+
+.cal{
+    background-color: aliceblue;
+    width: 100px;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+    border: 1px solid  violet;
+    border-radius: 5px;
+}
