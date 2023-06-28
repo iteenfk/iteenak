@@ -3,31 +3,44 @@
     margin: 0;
 }
 
-h1{
-    font-size: 15px;
-    background-color: gold;
-    width: 200px;
-    height: 50px;
-    text-align: center;
-    line-height: 50px;
-    margin: 10px auto;
-    border: 1px solid red;
-    border-radius: 10px;
+body{
+    width: 100%;
 }
 
 .main{
-    background-color: gold;
-    width: 200px;
-    height: auto;
-    text-align: center;
-    margin: 0 auto;
-    border: 1px solid red;
+    border: 1px solid black;
+    width: 30%;
+    margin: 10px auto;
     border-radius: 10px;
-    padding-top:  20px;
+    background-color: rgb(198, 243, 200);
+}
+
+h1{
+    font-size: 15px;
+    text-align: center;
+}
+
+.in{
+    width: 100%;
+    text-align:center;
 }
 
 input{
-    width: 80px;
-    text-align: right;
+    width: 50%;
+    text-align: center;
 }
 
+.btn{
+    width: 100%;
+    text-align: center;
+}
+
+button{
+    border: 3px dotted blue;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:active{
+    background-color: white;
+}

@@ -3,28 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>時間変換アプリ</title>
+    <title>iteen 音楽player</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>iteen 時間変換アプリ</h1>
     <div class="main">
-        <p>時間 :</p>
-        <input type="number" id="time"><br><br>
-        <p>単位 :</p>
-        <select name="unit" id="unit">
-            <option value="秒">秒</option>
-            <option value="分">分</option>
-            <option value="時間">時間</option>
-            <option value="日">日</option>
-            <option value="週">週</option>
-            <option value="月">月</option>
-            <option value="年">年</option>
-        </select><br><br>
-        <button onclick="convertTime()">変換する</button>
-
-        <div id="change-box"></div>
+        <audio id="player" src="test.mp3"></audio>
+        <h1>iteen 音楽player</h1>
+        
+        <div class="btn">
+            <button onclick="play()">再生</button>
+            <button onclick="pause()">一時停止</button>
+            <button onclick="stop()">停止</button>
+        </div>
+        <br>
+        <div class="in">
+            <input type="range" id="slider" oninput="volume()" min="0" max="100" value="50">
+            <p id="vol">50%</p>
+        </div>
     </div>
+    
     <script src="js/main.js"></script>
+    
 </body>
 </html>
